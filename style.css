@@ -2,7 +2,7 @@ body{
     background-size: cover; 
     background-repeat: no-repeat;
 }
-.introduction{
+.indroduction{
     position: relative;
     top:280px;
     font-size: 20px;
@@ -20,10 +20,11 @@ body{
     margin: 5px;
     font-family: 'Times New Roman', Times, serif;
     text-decoration: underline;
+    position: relative;
+    top: 272px;
+    color: white;
 }
-#modals{
-    width: 70%;
-}
+
 #modals ul{
     list-style-type: square;
     display: grid;
@@ -37,7 +38,6 @@ body{
 .head-1{
     text-align: center;
     font-size: 40px;
-    text-decoration: underline;
     font-family: 'Times New Roman', Times, serif;
     text-transform: uppercase;
     margin: 5px;
@@ -49,3 +49,33 @@ body{
     text-transform: uppercase;
     margin: 5px;
 }
+.head p{
+    font-size: 35px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 15px 20px;
+    text-decoration: underline 4px solid black;
+}
+.info{
+    font-size: 25px;
+    font-weight: 600;
+}
+.btn1{
+    margin-left: 560px;
+   }
+   
+  .button1{
+    padding: 10px 10px;
+    background: linear-gradient(to bottom, #f2e310 0%, #97fb0b 100%);
+    border: none;
+    cursor: pointer;
+   
+  }
+  .button1:hover{
+    padding: 10px 10px;
+    background: linear-gradient(to bottom, #cefc04 0%, #fd9904 100%);
+    border: none;
+    cursor: pointer;
+    border: 2px solid black;
+   
+  }
